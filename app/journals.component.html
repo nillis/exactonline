@@ -1,0 +1,8 @@
+<div *ngIf="loaded">
+	<div *ngFor="let journal of journals">
+		<h6>{{ journal.Description }}</h6>
+	</div>
+
+	<h3>Log</h3>
+	<pre>{{ journals | json }}</pre>
+</div>
