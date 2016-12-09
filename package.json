@@ -4,7 +4,8 @@
   },
   "scripts": {
     "vendors": "jspm bundle @angular/core + @angular/compiler + @angular/common + rxjs bundles/vendors.js --inject",
-    "build": "jspm bundle-sfx app/main lib/bundle.js --minify --skip-source-maps"
+    "build": "jspm bundle-sfx app/main lib/bundle.js --minify --skip-source-maps",
+    "start": "lite-server"
   },
   "jspm": {
     "dependencies": {
